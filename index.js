@@ -50,7 +50,8 @@ io.on('connection', (socket) => {
 
 const peerServer = PeerServer({
   port: 443,
-  path: '/',
+  path: '/peerjs',
+  host: 'react-socket-io-webrtc-server.onrender.com',
 });
 
 const PORT = process.env.PORT || 4000;
