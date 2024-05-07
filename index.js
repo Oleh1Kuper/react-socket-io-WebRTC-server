@@ -50,7 +50,7 @@ io.on('connection', (socket) => {
 
 const peerServer = PeerServer({
   port: 443,
-  path: '/',
+  path: '/peerjs',
 });
 
 const PORT = process.env.PORT || 4000;
