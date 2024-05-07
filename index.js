@@ -49,7 +49,7 @@ io.on('connection', (socket) => {
 });
 
 const peerServer = PeerServer({
-  port: 9000,
+  port: 443,
   path: '/peerjs',
 });
 
